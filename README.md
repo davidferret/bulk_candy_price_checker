@@ -1,13 +1,8 @@
-# Bulk Candy Price Calculator
+# Bulk Candy Price Checker
 
-This program calculates candy prices using real-time market data and bulk discounts. It retrieves the latest prices via an API or defaults to $1.99 per unit if unavailable. A 7% sales tax is applied. I would recommend using Zylalabs API since it has a free trial.
+This C project helps you calculate candy prices using real-time market data and bulk discounts. The way it works is by retrieving the latest prices via an API, or it defaults to $1.99 per unit if unavailable. A 7% sales tax is applied. I would recommend using Zylalabs API since it has a free trial. It will automatically apply bulk discounts for larger orders, and can validate the input is correct (numeric and positive values).
 
-- **Real-Time Pricing**: Fetches prices from an API with a fallback option.
-- **Bulk Discounts**: Applies tiered discounts for larger orders.
-- **Tax Calculation**: Automatically includes a 7% tax.
-- **Input Validation**: Ensures numeric and positive values.
-
-## Example Usage
+## Example Output
 ```
 Enter the number of chocolate bars: 200
 Fetching real-time chocolate prices...
